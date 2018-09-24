@@ -1,0 +1,5 @@
+version: '3'
+services:
+  dita-ot:
+    image: "jelovirt/kuhnuri_dita-ot:latest"
+    build: .
