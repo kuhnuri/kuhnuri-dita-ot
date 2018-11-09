@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-docker-compose build
-docker-compose push
+TAG=3.1 docker-compose build --build-arg TAG=3.1
+TAG=3.1 docker-compose push

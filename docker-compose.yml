@@ -1,5 +1,5 @@
-version: '3'
+version: '2.4'
 services:
   dita-ot:
-    image: "jelovirt/kuhnuri_dita-ot:latest"
+    image: "jelovirt/kuhnuri_dita-ot:${TAG}"
     build: .
