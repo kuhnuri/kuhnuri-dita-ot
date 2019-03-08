@@ -16,4 +16,5 @@ RUN curl -sLo /tmp/dita-ot-$VERSION.zip https://github.com/dita-ot/dita-ot/relea
     rm -r /tmp/dita-ot-$VERSION && \
     /opt/app/bin/dita --install
 ENV DITA_HOME=/opt/app
+ENV PATH=${PATH}:${DITA_HOME}/bin
 WORKDIR $DITA_HOME
