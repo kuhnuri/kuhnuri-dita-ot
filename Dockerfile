@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-ENV VERSION=3.3
+ENV VERSION=3.3.1
 
 RUN curl -sLo /tmp/dita-ot-$VERSION.zip https://github.com/dita-ot/dita-ot/releases/download/$VERSION/dita-ot-$VERSION.zip && \
     unzip /tmp/dita-ot-$VERSION.zip -d /tmp/ && \
